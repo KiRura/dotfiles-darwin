@@ -9,6 +9,7 @@
     ./git.nix
     ./fish.nix
     ./fonts.nix
+    ./nvim.nix
   ];
 
   home.packages = with pkgs; [
@@ -46,8 +47,7 @@
   #  /etc/profiles/per-user/kirura/etc/profile.d/hm-session-vars.sh
   home.sessionVariables = {
     LANG = "ja_JP.UTF-8";
-    SUDO_EDITOR = "nvim --wait";
-    EDITOR = "nvim --wait";
+    SUDO_EDITOR = "nvim";
   };
 
   programs.home-manager.enable = true;
