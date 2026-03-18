@@ -8,20 +8,35 @@
   imports = [
     ./git.nix
     ./fonts.nix
+    ./fish.nix
   ];
 
   home.packages = with pkgs; [
     nil
     nixd
     nixfmt
-    fish
+
+    bottom
+    btop
+
+    ffmpeg
+
+    openjdk
+    python
+    nodejs
+    node-gyp
+    pnpm
+    rustup
+    rustc
+    rust
+    cargo
+
+    nmap
+    traceroute
+    iproute2mac
   ];
 
   home.file = {
-  };
-
-  xdg.configFile = {
-    "fish/config.fish".source = ./file/fish/config.fish;
   };
 
   #  ~/.nix-profile/etc/profile.d/hm-session-vars.sh
@@ -29,8 +44,8 @@
   #  /etc/profiles/per-user/kirura/etc/profile.d/hm-session-vars.sh
   home.sessionVariables = {
     LANG = "ja_JP.UTF-8";
-    SUDO_EDITOR = "zed --wait";
-    EDITOR = "zed --wait";
+    SUDO_EDITOR = "nvim --wait";
+    EDITOR = "nvim --wait";
   };
 
   programs.home-manager.enable = true;
