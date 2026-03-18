@@ -19,6 +19,7 @@
     lsd
     bat
     yt-dlp
+    gh
 
     bottom
     btop
