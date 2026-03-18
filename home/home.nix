@@ -28,7 +28,7 @@
 
     ffmpeg
 
-    openjdk
+    zulu
     python3
     nodejs
     node-gyp
