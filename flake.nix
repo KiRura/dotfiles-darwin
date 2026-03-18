@@ -11,7 +11,7 @@
   };
 
   outputs =
-    { self, nixpkgs, home-manager, ... }:
+    { nixpkgs, home-manager, ... }:
     let
       system = "aarch64-darwin";
       pkgs = import nixpkgs { inherit system; };
