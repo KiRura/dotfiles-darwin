@@ -8,26 +8,32 @@
   imports = [
     ./git.nix
     ./fish.nix
+    ./fonts.nix
   ];
 
   home.packages = with pkgs; [
     nil
     nixd
     nixfmt
+
+    lsd
+    bat
+    yt-dlp
+
     bottom
     btop
+
     ffmpeg
+
     openjdk
     python3
     nodejs
     node-gyp
     pnpm
+    deno
     rustup
-    rustc
-    rust
-    cargo
+
     nmap
-    traceroute
     iproute2mac
   ];
 
