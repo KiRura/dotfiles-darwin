@@ -21,6 +21,7 @@
     bat
     yt-dlp
     gh
+    tmux
 
     bottom
     btop
