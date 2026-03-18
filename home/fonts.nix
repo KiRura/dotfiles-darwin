@@ -1,6 +1,6 @@
 { pkgs, ... }:
 {
-  home.packages = [
-    pkgs.googlesans-code
+  home.packages = with pkgs; [
+    googlesans-code
   ];
 }

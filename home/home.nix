@@ -10,13 +10,18 @@
     ./fonts.nix
   ];
 
-  home.packages = [
-    pkgs.nil
-    pkgs.nixd
-    pkgs.nixfmt
+  home.packages = with pkgs; [
+    nil
+    nixd
+    nixfmt
+    fish
   ];
 
   home.file = {
+  };
+
+  xdg.configFile = {
+    "fish/config.fish".source = ./file/fish/config.fish;
   };
 
   #  ~/.nix-profile/etc/profile.d/hm-session-vars.sh
@@ -26,7 +31,6 @@
     LANG = "ja_JP.UTF-8";
     SUDO_EDITOR = "zed --wait";
     EDITOR = "zed --wait";
-    fish_greeting = null;
   };
 
   programs.home-manager.enable = true;
