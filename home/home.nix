@@ -7,7 +7,6 @@
 
   imports = [
     ./git.nix
-    ./fonts.nix
     ./fish.nix
   ];
 
@@ -15,14 +14,11 @@
     nil
     nixd
     nixfmt
-
     bottom
     btop
-
     ffmpeg
-
     openjdk
-    python
+    python3
     nodejs
     node-gyp
     pnpm
@@ -30,7 +26,6 @@
     rustc
     rust
     cargo
-
     nmap
     traceroute
     iproute2mac
