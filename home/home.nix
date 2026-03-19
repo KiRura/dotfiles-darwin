@@ -11,6 +11,7 @@
     ./fonts.nix
     ./nvim.nix
     ./zed.nix
+    ./ghostty.nix
   ];
 
   home.packages = with pkgs; [

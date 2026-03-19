@@ -1,7 +1,7 @@
 { ... }:
 {
   programs.zed-editor = {
-    enabled = true;
+    enable = true;
     extensions = [
       "html"
       "nix"
