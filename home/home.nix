@@ -12,6 +12,7 @@
     ./nvim.nix
     ./zed.nix
     ./ghostty.nix
+    ./firefox.nix
   ];
 
   home.packages = with pkgs; [
