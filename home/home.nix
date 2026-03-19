@@ -32,9 +32,9 @@
 
     ffmpeg
 
-    zulu
-    python3
-    nodejs
+    zulu25
+    python315
+    nodejs_latest
     node-gyp
     pnpm
     deno
