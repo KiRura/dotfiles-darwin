@@ -5,7 +5,7 @@
     extensions = [
       "html"
       "nix"
-      "carbonfox"
+      "nvim-nightfox"
       "svelte"
     ];
     userSettings = {
@@ -21,7 +21,7 @@
       theme = {
         mode = "system";
         light = "One Light";
-        dark = "Carbonfox";
+        dark = "Carbonfox - opaque";
       };
       tab_size = 3;
     };
