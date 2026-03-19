@@ -1,7 +1,8 @@
-{ ... }:
+{ pkgs, ... }:
 {
   programs.ghostty = {
     enable = true;
+    package = pkgs.ghostty-bin;
     settings = {
       font-family = "Guguru Sans Code Console 35NF";
       font-size = 14;
