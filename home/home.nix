@@ -41,6 +41,14 @@
 
     nmap
     iproute2mac
+
+    audacity
+    ice-bar
+    maccy
+    localsend
+    # karabiner-elements
+    # https://github.com/nix-darwin/nix-darwin/pull/1679
+    bitwarden-desktop
   ];
 
   home.file = {
