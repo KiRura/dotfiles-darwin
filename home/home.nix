@@ -10,6 +10,7 @@
     ./fish.nix
     ./fonts.nix
     ./nvim.nix
+    ./zed.nix
   ];
 
   home.packages = with pkgs; [
