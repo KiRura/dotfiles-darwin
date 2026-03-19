@@ -50,6 +50,8 @@
     # karabiner-elements
     # https://github.com/nix-darwin/nix-darwin/pull/1679
     bitwarden-desktop
+    # gimp
+    inkscape
   ];
 
   home.file = {
