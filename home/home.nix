@@ -22,6 +22,7 @@
     yt-dlp
     gh
     tmux
+    git-credential-manager
 
     bottom
     btop
